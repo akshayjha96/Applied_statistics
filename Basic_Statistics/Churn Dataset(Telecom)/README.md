@@ -6,13 +6,14 @@ This dataset contains information about customer churn for a telecom company. Th
 
 | Column | Description |
 |---|---|
-| customerID | Unique customer identifier |
-| gender | Customer's gender |
-| SeniorCitizen | Whether the customer is a senior citizen |
-| tenure | Number of months the customer has been with the company |
-| MonthlyCharges | Monthly charges paid by the customer |
-| TotalCharges | Total charges paid by the customer |
-| Churn | Whether the customer has churned (left the company) |
+| VMail Plan | Voice mail plan taken by the customer or not. |
+| State | State in Area of study. |
+| Intl Mins | Time spent on international calls. |
+| CustServ Calls | Number of customer service calls by customer. |
+| Night Charge | Charges of Night Calls. |
+| Day Charge | Charges of Day Calls. |
+| Churn | Customers who churned the telecom service or who doesn’t(0=“Churner”, 1=“Non-Churner”) |
+
 
 ## Usage
 
